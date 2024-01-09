@@ -1,13 +1,13 @@
-""" This is the Module 1 homework that works the fundamental python
+""" This is the Module 1 homework that works Python fundamentals
 P1: Create a New Python Module (Company Byline) - 44-608: Working Group 2
-Coding completed usiong course resources, LinkedLearning, and ChatGPT4 figure out errors
+Coding completed using course resources, LinkedinLearning, and ChatGPT4 to work out the errors
 Jason Ballard
 """
 # import math #coded out because the statistic module handles the code- be effieicnt 
 import statistics
 
 def main():
-    # Display all output 
+# Display all output 
     company_name = "Stellar Analytics Inc."
     count_active_projects = 5
     has_international_presence = False
@@ -17,8 +17,7 @@ def main():
     active_projects_string = f"Active Projects: {count_active_projects}"
     international_presence_string = f"International Presence: {has_international_presence}"
     client_satisfaction_string = f"Average Client Satisfaction: {average_client_satisfaction}"
-
-    # Calculating statistics
+# Calculating statistics
     smallest = min(satisfaction_scores)
     largest = max(satisfaction_scores)
     total = round(sum(satisfaction_scores))  # Rounding the total
@@ -32,7 +31,7 @@ def main():
     except statistics.StatisticsError:
         mode = "No unique mode"
 
-    # Printing information
+ # Printing information
     print(company_name)
     print(active_projects_string)
     print(international_presence_string)
