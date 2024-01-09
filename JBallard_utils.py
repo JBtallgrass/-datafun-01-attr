@@ -1,5 +1,9 @@
+""" This is the Module 1 homework that works the fundamental python
+P1: Create a New Python Module (Company Byline) - 44-608: Working Group 2
+Coding completed usiong course resources, LinkedLearning, and ChatGPT4 figure out errors
+Jason Ballard
 """
-import math
+# import math #coded out because the statistic module handles the code- be effieicnt 
 import statistics
 
 def main():
