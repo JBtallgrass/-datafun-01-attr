@@ -5,6 +5,9 @@ Jason Ballard
 """
 # import math #coded out because the statistic module handles the code- be effieicnt 
 import statistics
+# Byline function
+def byline():
+    return "Created by Jason Ballard for Stellar Analytics Inc."
 
 def main():
 # Display all output 
@@ -46,6 +49,11 @@ def main():
     print(f"Mode of Satisfaction Scores: {mode}")
     print(f"Median Satisfaction Score: {median}")
     print(f"Standard Deviation of Scores: {standard_deviation:.2f}")
+    print(byline())
+
+if __name__ == '__main__':
+    main()
+
 
 if __name__ == '__main__':
     main()
